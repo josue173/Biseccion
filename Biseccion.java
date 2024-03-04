@@ -13,9 +13,9 @@ public class Biseccion {
     static ArrayList<Double> errores = new ArrayList<>();
     
     public static void main(String[] args) {
-         System.out.println("Ingrese el valor inicial: ");
+         System.out.println("Ingrese el valor inicial: "); // 3
          double inicio = scan.nextDouble();
-         System.out.println("Ingrese el valor final: ");
+         System.out.println("Ingrese el valor final: "); // 5
          double fin = scan.nextDouble();
          iterar(inicio, fin);
          mostrar();
