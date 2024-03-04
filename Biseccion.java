@@ -56,7 +56,7 @@ public class Biseccion {
     }
     
     public static double funcion(double x){
-        return  Math.pow(x, 3) - Math.pow(Math.E, 2) + (6*x) - 24; // x^3 - e^2 + 6x - 24
+        return  3*Math.pow(x,2) - Math.pow(Math.E, x) + 7; // 3x^2 - e^x + 7
     }
 
     public static void mostrar() {
